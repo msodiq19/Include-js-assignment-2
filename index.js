@@ -43,7 +43,7 @@ function prime(arr,n){
             prime.push(arr[i])
         }
     }
-    console.log(prime)
+    console.log(`The prime numbers are ${prime}`)
 }
 
 prime(arr,n)
@@ -59,7 +59,7 @@ function evenOdd (arr){
             odd.push(arr[i])
         }
     }
-    console.log(odd,even)
+    console.log(`odd = ${odd} even = ${even}`)
 }
 
 evenOdd(arr)
